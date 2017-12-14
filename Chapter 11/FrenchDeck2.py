@@ -2,7 +2,7 @@ import collections
 Card = collections.namedtuple("Card", ["rank", "suit"])
 
 class FrenchDeck2(collections.MutableSequence):
-    ranks = [str(n) for n in range(2,11)] + "JQKA"
+    ranks = [str(n) for n in range(2,11)] + list("JQKA")
     clubs = "spades diamonds clubs hearts".split()
 
     def __init__(self):

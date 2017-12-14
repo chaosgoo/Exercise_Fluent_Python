@@ -1,8 +1,8 @@
 import doctest
-from C11E4 import Tombola
-from C11E5 import BingoCage
-from C11E6 import LotteryBlower
-from C11E7 import TombolaList
+from Tombola import Tombola
+from BingoCage import BingoCage
+from LotteryBlower import LotteryBlower
+from TombolaList import TombolaList
 
 TEST_FILE = "tombola_tests.rst"
 TEST_MSG = "{0:16}{1.attempted:2} tests, {1.failed:2} failed - {2}"

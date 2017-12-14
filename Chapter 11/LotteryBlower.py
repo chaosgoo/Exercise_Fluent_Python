@@ -1,5 +1,5 @@
 import random
-from C11E4 import Tombola
+from Tombola import Tombola
 
 class LotteryBlower(Tombola):
     def __init__(self, iterable):

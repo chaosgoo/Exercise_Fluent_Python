@@ -1,5 +1,5 @@
-from C11E4 import Tombola
-from C11E7 import TombolaList
+from Tombola import Tombola
+from TombolaList import TombolaList
 
 print(issubclass(TombolaList,Tombola))
 t = TombolaList(range(100))

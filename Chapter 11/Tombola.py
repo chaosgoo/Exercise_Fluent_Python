@@ -13,6 +13,7 @@ class Tombola(abc.ABC):
     
     def loaded(self):
         """如果至少有一个元素，就返回True，否则返回False"""
+        return bool(self.inspect())
 
     def inspect(self):
         """返回一个有序元组，由当前元素构成"""

@@ -1,5 +1,5 @@
 from random import randrange
-from C11E4 import Tombola
+from Tombola import Tombola
 
 @Tombola.register
 class TombolaList(list):

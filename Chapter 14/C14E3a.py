@@ -1,0 +1,10 @@
+from sentence import Sentence
+s3 = Sentence("Pig and Pepper")
+it = iter(s3)
+print(it)
+print(next(it))
+print(next(it))
+print(next(it))
+# print(next(it)) #Traceback (most recent call last)
+print(list(it))
+print(list(iter(s3)))
